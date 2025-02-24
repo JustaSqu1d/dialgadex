@@ -197,211 +197,230 @@ function GetEffectivenessMultOfType(effectiveness, type) {
 /**
  * Gets the CP multiplier for a specific level.
  */
+/**
+ * Gets the CP multiplier for a specific level.
+ */
 function GetCPMForLevel(level) {
 
     switch (level) {
         case 1:
-            return 0.094;
+            return 0.0939999967813491;
         case 1.5:
-            return 0.1351374318;
+            return 0.135137430784308;
         case 2:
-            return 0.16639787;
+            return 0.166397869586944;
         case 2.5:
-            return 0.192650919;
+            return 0.192650914456886;
         case 3:
-            return 0.21573247;
+            return 0.215732470154762;
         case 3.5:
-            return 0.2365726613;
+            return 0.236572655026622;
         case 4:
-            return 0.25572005;
+            return 0.255720049142837;
         case 4.5:
-            return 0.2735303812;
+            return 0.273530381100769;
         case 5:
-            return 0.29024988;
+            return 0.29024988412857;
         case 5.5:
-            return 0.3060573775;
+            return 0.306057381335773;
         case 6:
-            return 0.3210876;
+            return 0.321087598800659;
         case 6.5:
-            return 0.3354450362;
+            return 0.335445032295077;
         case 7:
-            return 0.34921268;
+            return 0.349212676286697;
         case 7.5:
-            return 0.3624577511;
+            return 0.36245774877879;
         case 8:
-            return 0.3752356;
+            return 0.375235587358474;
         case 8.5:
-            return 0.387592416;
+            return 0.387592411085168;
         case 9:
-            return 0.39956728;
+            return 0.399567276239395;
         case 9.5:
-            return 0.4111935514;
+            return 0.41119354951725;
         case 10:
-            return 0.4225;
+            return 0.422500014305114;
         case 10.5:
-            return 0.4329264091;
+            return 0.432926413410414;
         case 11:
-            return 0.44310755;
+            return 0.443107545375824;
         case 11.5:
-            return 0.4530599591;
+            return 0.453059953871985;
         case 12:
-            return 0.4627984;
+            return 0.46279838681221;
         case 12.5:
-            return 0.472336093;
+            return 0.472336077786704;
         case 13:
-            return 0.48168495;
+            return 0.481684952974319;
         case 13.5:
-            return 0.4908558003;
+            return 0.490855810259008;
         case 14:
-            return 0.49985844;
+            return 0.499858438968658;
         case 14.5:
-            return 0.508701765;
+            return 0.508701756943992;
         case 15:
-            return 0.51739395;
+            return 0.517393946647644;
         case 15.5:
-            return 0.5259425113;
+            return 0.525942508771329;
         case 16:
-            return 0.5343543;
+            return 0.534354329109191;
         case 16.5:
-            return 0.5426357375;
+            return 0.542635762230353;
         case 17:
-            return 0.5507927;
+            return 0.550792694091796;
         case 17.5:
-            return 0.5588305862;
+            return 0.558830599438087;
         case 18:
-            return 0.5667545;
+            return 0.566754519939422;
         case 18.5:
-            return 0.5745691333;
+            return 0.574569148039264;
         case 19:
-            return 0.5822789;
+            return 0.582278907299041;
         case 19.5:
-            return 0.5898879072;
+            return 0.589887911977272;
         case 20:
-            return 0.5974;
+            return 0.59740000963211;
         case 20.5:
-            return 0.6048236651;
+            return 0.604823657502073;
         case 21:
-            return 0.6121573;
+            return 0.61215728521347;
         case 21.5:
-            return 0.6194041216;
+            return 0.61940411056605;
         case 22:
-            return 0.6265671;
+            return 0.626567125320434;
         case 22.5:
-            return 0.6336491432;
+            return 0.633649181622743;
         case 23:
-            return 0.64065295;
+            return 0.640652954578399;
         case 23.5:
-            return 0.6475809666;
+            return 0.647580963301656;
         case 24:
-            return 0.65443563;
+            return 0.654435634613037;
         case 24.5:
-            return 0.6612192524;
+            return 0.661219263506722;
         case 25:
-            return 0.667934;
+            return 0.667934000492096;
         case 25.5:
-            return 0.6745818959;
+            return 0.674581899290818;
         case 26:
-            return 0.6811649;
+            return 0.681164920330047;
         case 26.5:
-            return 0.6876849038;
+            return 0.687684905887771;
         case 27:
-            return 0.69414365;
+            return 0.694143652915954;
         case 27.5:
-            return 0.70054287;
+            return 0.700542893277978;
         case 28:
-            return 0.7068842;
+            return 0.706884205341339;
         case 28.5:
-            return 0.7131691091;
+            return 0.713169102333341;
         case 29:
-            return 0.7193991;
+            return 0.719399094581604;
         case 29.5:
-            return 0.7255756136;
+            return 0.725575616972598;
         case 30:
-            return 0.7317;
+            return 0.731700003147125;
         case 30.5:
-            return 0.7347410093;
+            return 0.734741011137376;
         case 31:
-            return 0.7377695;
+            return 0.737769484519958;
         case 31.5:
-            return 0.7407855938;
+            return 0.740785574597326;
         case 32:
-            return 0.74378943;
+            return 0.743789434432983;
         case 32.5:
-            return 0.7467812109;
+            return 0.746781208702482;
         case 33:
-            return 0.74976104;
+            return 0.749761044979095;
         case 33.5:
-            return 0.7527290867;
+            return 0.752729105305821;
         case 34:
-            return 0.7556855;
+            return 0.75568550825119;
         case 34.5:
-            return 0.7586303683;
+            return 0.758630366519684;
         case 35:
-            return 0.76156384;
+            return 0.761563837528228;
         case 35.5:
-            return 0.7644860647;
+            return 0.764486065255226;
         case 36:
-            return 0.76739717;
+            return 0.767397165298461;
         case 36.5:
-            return 0.7702972656;
+            return 0.77029727397159;
         case 37:
-            return 0.7731865;
+            return 0.77318650484085;
         case 37.5:
-            return 0.7760649616;
+            return 0.776064945942412;
         case 38:
-            return 0.77893275;
+            return 0.778932750225067;
         case 38.5:
-            return 0.7817900548;
+            return 0.781790064808426;
         case 39:
-            return 0.784637;
+            return 0.784636974334716;
         case 39.5:
-            return 0.7874736075;
+            return 0.787473583646825;
         case 40:
-            return 0.7903;
+            return 0.790300011634826;
         case 40.5:
-            return 0.792803968;
+            return 0.792803950958807;
         case 41:
-            return 0.79530001;
+            return 0.795300006866455;
         case 41.5:
-            return 0.797800015;
+            return 0.79780392148697;
         case 42:
-            return 0.8003;
+            return 0.800300002098083;
         case 42.5:
-            return 0.802799995;
+            return 0.802803892322847;
         case 43:
-            return 0.8053;
+            return 0.805299997329711;
         case 43.5:
-            return 0.8078;
+            return 0.807803863460723;
         case 44:
-            return 0.81029999;
+            return 0.81029999256134;
         case 44.5:
-            return 0.812799985;
+            return 0.812803834895026;
         case 45:
-            return 0.81529999;
+            return 0.815299987792968;
         case 45.5:
-            return 0.81779999;
+            return 0.817803806620319;
         case 46:
-            return 0.82029999;
+            return 0.820299983024597;
         case 46.5:
-            return 0.82279999;
+            return 0.822803778631297;
         case 47:
-            return 0.82529999;
+            return 0.825299978256225;
         case 47.5:
-            return 0.82779999;
+            return 0.827803750922782;
         case 48:
-            return 0.83029999;
+            return 0.830299973487854;
         case 48.5:
-            return 0.83279999;
+            return 0.832803753381377;
         case 49:
-            return 0.83529999;
+            return 0.835300028324127;
         case 49.5:
-            return 0.83779999;
+            return 0.837803755931569;
         case 50:
-            return 0.84029999;
+            return 0.840300023555755;
         case 50.5:
-            return 0.84279999;
+            return 0.842803729034748;
         case 51:
-            return 0.84529999;
+            return 0.845300018787384;
+        case 51.5:
+            return 0.847803702398935;
+        case 52:
+            return 0.850300014019012;
+        case 52.5:
+            return 0.852803676019539;
+        case 53:
+            return 0.85530000925064;
+        case 53.5:
+            return 0.857803649892077;
+        case 54:
+            return 0.860300004482269;
+        case 54.5:
+            return 0.862803624012168;
+        case 55:
+            return 0.865299999713897;
         default: // should not happen...
             return 0;
     }
