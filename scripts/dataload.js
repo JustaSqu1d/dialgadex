@@ -1,4 +1,4 @@
-const JB_URL = "https://raw.githubusercontent.com/mgrann03/pokemon-resources/main/";
+const JB_URL = "https://raw.githubusercontent.com/JustaSqu1d/pokemon-resources/main/";
 const CDN_URL = "https://cdn.statically.io/gh/mgrann03/pokemon-resources/main/";
 const GIFS_PATH = "graphics/ani/";
 const SHINY_GIFS_PATH = "graphics/ani-shiny/";
